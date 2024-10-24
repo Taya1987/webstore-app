@@ -1,0 +1,47 @@
+.login__name {
+    display: flex;
+    float: right;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-right: 30px;
+  }
+  
+  .welcome__message {
+    position: relative;
+    display: flex;
+    float: right;
+    overflow: hidden;
+    color:white;
+    padding-top: 10px;
+  }
+  
+  .buttons__btn {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .buttons__add {
+    background: var(--secondary-color);
+    color: var(--light-color);
+    
+
+  }
+  .buttons__logout {
+    background: var(--secondary-color);
+    color: var(--light-color);
+    width: 100px;
+    padding: 5px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+   

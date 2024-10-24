@@ -1,0 +1,54 @@
+.home__page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/free-photo/flat-lay-green-leaves-composition_23-2148831255.jpg?semt=ais_hybrid);
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  padding: 0%;
+  background-color: rgba(225, 221, 221, 0.056);
+}
+
+
+
+.buttons__btn {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buttons__add {
+  background: var(--secondary-color);
+  color: var(--light-color);
+}
+.buttons__logout {
+  background: var(--secondary-color);
+  color: var(--light-color);
+  width: 100px;
+  padding: 5px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.help_icon {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+  outline: none;
+  color: var(--secondary-color);
+  font-size: 40px;
+}
+.popup_content{
+  font-size: 15px;
+}
